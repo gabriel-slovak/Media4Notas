@@ -47,7 +47,7 @@ namespace Media4Notas
                 Console.WriteLine();
                 Console.ResetColor();
             }
-            else if (media >= 5.0 && media <=6.0)
+            else if (media >= 5.0 && media < 6.0)
             {
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -55,7 +55,7 @@ namespace Media4Notas
                 Console.WriteLine();
                 Console.ResetColor();
             }
-            else if (media >= 6.0)
+            else
             {
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
